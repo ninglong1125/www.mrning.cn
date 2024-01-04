@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我的文章 on 个人小站🦄</title>
+    <link>https://www.mrning.cn/posts/</link>
+    <description>Recent content in 我的文章 on 个人小站🦄</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>皖ICP备2022000240号</copyright>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.mrning.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://www.mrning.cn/posts/getting-started/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/posts/getting-started/</guid>
+      <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
+    </item>
+  </channel>
+</rss>
