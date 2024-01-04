@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>皖ICP备2022000240号</copyright>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.mrning.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux命令简单记录</title>
+      <link>https://www.mrning.cn/posts/linux/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/posts/linux/</guid>
+      <description>记录几个我经常使用，但是却经常忘的Linux命令。</description>
+    </item>
+    <item>
+      <title>使用ohttps自带的docker-nginx来配置https</title>
+      <link>https://www.mrning.cn/privacy/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/privacy/</guid>
+      <description>使用 ohttps 官方提供的nginx容器镜像ohttps/ohttps-nginx来配置网站https服务。</description>
+    </item>
+    <item>
+      <title>使用ohttps自带的docker-nginx来配置https服务</title>
+      <link>https://www.mrning.cn/posts/ohttps/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/posts/ohttps/</guid>
+      <description>使用 ohttps 官方提供的nginx容器镜像ohttps/ohttps-nginx来配置网站https服务。</description>
+    </item>
     <item>
       <title>Getting Started</title>
       <link>https://www.mrning.cn/posts/getting-started/</link>

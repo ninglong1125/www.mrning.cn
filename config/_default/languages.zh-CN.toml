@@ -13,12 +13,12 @@ copyright = "皖ICP备2022000240号"
   # description = "My awesome website"
 
 [author]
-  name = "这里是MrNing的个人小站"
+  name = "MrNing的个人小站"
   image = "imgs/logo.jpg"
   headline = "攻读硕士中..."
-  bio = "欢迎来到NL的个人网站,MrNing的个人网站, NL个人小站,MrNing个人小站, NL的个人简历, NL的个人博客"
+  bio = "欢迎来到NL的个人网站, MrNing的个人网站, NL个人小站, MrNing个人小站, NL的个人简历, NL的个人博客"
   links = [
-    { email = "mailto:nl@mrning.cn" },
+    { email = "mailto:admin@mrning.cn" },
     { link = "https://www.mrning.cn" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },

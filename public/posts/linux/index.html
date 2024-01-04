@@ -12,13 +12,12 @@
   data-default-appearance="light"
   data-auto-appearance="true"
 ><head>
-	<meta name="generator" content="Hugo 0.121.1">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>个人小站🦄</title>
-    <meta name="title" content="个人小站🦄" />
+  <title>Linux命令简单记录 &middot; 个人小站🦄</title>
+    <meta name="title" content="Linux命令简单记录 &middot; 个人小站🦄" />
   
   
   
@@ -71,17 +70,13 @@
   <meta
     name="description"
     content="
-      
-        
-      
+      Linux命令简单记录
     "
   />
   
   
   
-  <link rel="canonical" href="https://www.mrning.cn/" />
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="个人小站🦄" />
-  <link rel="alternate" type="application/json" href="/index.json" title="个人小站🦄" />
+  <link rel="canonical" href="https://www.mrning.cn/posts/linux/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -95,30 +90,43 @@
   
   
   
-  <meta property="og:title" content="个人小站🦄" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.mrning.cn/" />
+  <meta property="og:title" content="Linux命令简单记录" />
+<meta property="og:description" content="Linux命令简单记录" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.mrning.cn/posts/linux/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-09-09T00:00:00+00:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="个人小站🦄"/>
-<meta name="twitter:description" content=""/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Linux命令简单记录"/>
+<meta name="twitter:description" content="Linux命令简单记录"/>
 
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https:\/\/www.mrning.cn\/",
-    "name": "个人小站🦄",
-    
+    "@type": "Article",
+    "articleSection": "我的文章",
+    "name": "Linux命令简单记录",
+    "headline": "Linux命令简单记录",
+    "description": "Linux命令简单记录",
+    "abstract": "记录几个我经常使用，但是却经常忘的Linux命令。",
     "inLanguage": "zh-CN",
-    "url": "https:\/\/www.mrning.cn\/",
-    
-    "publisher" : {
+    "url" : "https:\/\/www.mrning.cn\/posts\/linux\/",
+    "author" : {
       "@type": "Person",
       "name": "MrNing的个人小站"
-    }
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-09-09T00:00:00\u002b00:00",
+    "datePublished": "2022-09-09T00:00:00\u002b00:00",
+    
+    "dateModified": "2022-09-09T00:00:00\u002b00:00",
+    
+    "keywords": ["教程"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "72"
   }
   </script>
 
@@ -268,37 +276,156 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Linux命令简单记录
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
   
   
-    <article
-  class="
-    h-full
-   flex flex-col items-center justify-center text-center"
->
-  <header class="mb-3 flex flex-col items-center">
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-09-09 00:00:00 &#43;0000 UTC">2022/9/9</time><span class="px-2 text-primary-500">&middot;</span><span>72 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    目录
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux命令简单记录">Linux命令简单记录</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#创建用户并分配bash">创建用户并分配bash</a></li>
+            <li><a href="#更改用户密码">更改用户密码</a></li>
+            <li><a href="#更改文件夹用户权限">更改文件(夹)用户权限</a></li>
+            <li><a href="#查询进程">查询进程</a></li>
+            <li><a href="#查询端口">查询端口</a></li>
+            <li><a href="#查询内存">查询内存</a></li>
+            <li><a href="#查询磁盘">查询磁盘</a></li>
+            <li><a href="#查询当前文件夹占用空间">查询当前文件夹占用空间</a></li>
+            <li><a href="#统计文件夹下的文件夹数目">统计文件夹下的文件夹数目</a></li>
+            <li><a href="#查看文件后几行内容">查看文件后几行内容</a></li>
+            <li><a href="#删除某一目录下的所有特定类型文件">删除某一目录下的所有特定类型文件</a></li>
+            <li><a href="#解压targz文件">解压*.tar.gz文件</a></li>
+            <li><a href="#解压tarxz文件">解压*.tar.xz文件</a></li>
+            <li><a href="#将文件夹压缩成targz">将文件夹压缩成*.tar.gz</a></li>
+            <li><a href="#将文件夹压缩成zip">将文件夹压缩成*.zip</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <h2 id="linux命令简单记录" class="relative group">Linux命令简单记录 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#linux%e5%91%bd%e4%bb%a4%e7%ae%80%e5%8d%95%e8%ae%b0%e5%bd%95" aria-label="锚点">#</a></span></h2><h4 id="创建用户并分配bash" class="relative group">创建用户并分配bash <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%88%9b%e5%bb%ba%e7%94%a8%e6%88%b7%e5%b9%b6%e5%88%86%e9%85%8dbash" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">useradd &lt;user&gt; -s /bin/bash
+</span></span></code></pre></div><h4 id="更改用户密码" class="relative group">更改用户密码 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9b%b4%e6%94%b9%e7%94%a8%e6%88%b7%e5%af%86%e7%a0%81" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">passwd &lt;username&gt;
+</span></span></code></pre></div><h4 id="更改文件夹用户权限" class="relative group">更改文件(夹)用户权限 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9b%b4%e6%94%b9%e6%96%87%e4%bb%b6%e5%a4%b9%e7%94%a8%e6%88%b7%e6%9d%83%e9%99%90" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chown -R &lt;username&gt; &lt;filename&gt;
+</span></span></code></pre></div><h4 id="查询进程" class="relative group">查询进程 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e8%af%a2%e8%bf%9b%e7%a8%8b" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ps -aux <span class="p">|</span> grep &lt;name&gt;
+</span></span></code></pre></div><h4 id="查询端口" class="relative group">查询端口 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e8%af%a2%e7%ab%af%e5%8f%a3" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">lsof -i :8080
+</span></span></code></pre></div><h4 id="查询内存" class="relative group">查询内存 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e8%af%a2%e5%86%85%e5%ad%98" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">free -h
+</span></span></code></pre></div><h4 id="查询磁盘" class="relative group">查询磁盘 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e8%af%a2%e7%a3%81%e7%9b%98" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">df -h
+</span></span></code></pre></div><h4 id="查询当前文件夹占用空间" class="relative group">查询当前文件夹占用空间 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e8%af%a2%e5%bd%93%e5%89%8d%e6%96%87%e4%bb%b6%e5%a4%b9%e5%8d%a0%e7%94%a8%e7%a9%ba%e9%97%b4" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">du -sh
+</span></span></code></pre></div><h4 id="统计文件夹下的文件夹数目" class="relative group">统计文件夹下的文件夹数目 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%bb%9f%e8%ae%a1%e6%96%87%e4%bb%b6%e5%a4%b9%e4%b8%8b%e7%9a%84%e6%96%87%e4%bb%b6%e5%a4%b9%e6%95%b0%e7%9b%ae" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls <span class="p">|</span> wc -w
+</span></span></code></pre></div><h4 id="查看文件后几行内容" class="relative group">查看文件后几行内容 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e7%9c%8b%e6%96%87%e4%bb%b6%e5%90%8e%e5%87%a0%e8%a1%8c%e5%86%85%e5%ae%b9" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"> tail -n <span class="m">5</span> &lt;filename&gt;
+</span></span></code></pre></div><h4 id="删除某一目录下的所有特定类型文件" class="relative group">删除某一目录下的所有特定类型文件 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%88%a0%e9%99%a4%e6%9f%90%e4%b8%80%e7%9b%ae%e5%bd%95%e4%b8%8b%e7%9a%84%e6%89%80%e6%9c%89%e7%89%b9%e5%ae%9a%e7%b1%bb%e5%9e%8b%e6%96%87%e4%bb%b6" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">find &lt;dirname&gt; -name <span class="s2">&#34;*.ckpt&#34;</span> <span class="p">|</span> xargs rm -rf
+</span></span></code></pre></div><h4 id="解压targz文件" class="relative group">解压*.tar.gz文件 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a7%a3%e5%8e%8btargz%e6%96%87%e4%bb%b6" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -xvzf *.tar.gz
+</span></span></code></pre></div><h4 id="解压tarxz文件" class="relative group">解压*.tar.xz文件 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a7%a3%e5%8e%8btarxz%e6%96%87%e4%bb%b6" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -xvf *.tar.xz
+</span></span></code></pre></div><h4 id="将文件夹压缩成targz" class="relative group">将文件夹压缩成*.tar.gz <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b0%86%e6%96%87%e4%bb%b6%e5%a4%b9%e5%8e%8b%e7%bc%a9%e6%88%90targz" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -zcvf &lt;dirname&gt;.tar.gz &lt;dirname&gt;
+</span></span></code></pre></div><h4 id="将文件夹压缩成zip" class="relative group">将文件夹压缩成*.zip <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b0%86%e6%96%87%e4%bb%b6%e5%a4%b9%e5%8e%8b%e7%bc%a9%e6%88%90zip" aria-label="锚点">#</a></span></h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">zip -q -r &lt;dirname&gt;.zip &lt;dirname&gt;
+</span></span></code></pre></div>
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
     
       
       
         
         <img
-          class="mb-2 h-36 w-36 rounded-full"
-          width="144"
-          height="144"
+          class="!mb-0 !mt-0 me-4 h-24 w-24 rounded-full"
+          width="96"
+          height="96"
           alt="MrNing的个人小站"
-          src="/imgs/logo_hu7ee2f4271f7b0687046a40127e133993_50534_288x288_fill_q75_box_center.jpg"
+          src="/imgs/logo_hu7ee2f4271f7b0687046a40127e133993_50534_192x192_fill_q75_box_center.jpg"
+          
+            loading="lazy"
+          
         />
       
     
-    <h1 class="text-4xl font-extrabold">
-      MrNing的个人小站
-    </h1>
-    
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-        攻读硕士中&hellip;
-      </h2>
-    
-    <div class="mt-1 text-2xl">
+    <div class="place-self-center">
       
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          作者
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          MrNing的个人小站
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">欢迎来到NL的个人网站, MrNing的个人网站, NL个人小站, MrNing个人小站, NL的个人简历, NL的个人博客</div>
+      
+      <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
     
       
@@ -368,17 +495,57 @@
     
   </div>
 
-
+</div>
     </div>
-  </header>
-  <section class="prose dark:prose-invert"></section>
-</article>
-<section>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/posts/ohttps/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >使用ohttps自带的docker-nginx来配置https服务</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-01-08 00:00:00 &#43;0000 UTC">2022/1/8</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
   
 
-</section>
 
-  
+      
+    </footer>
+  </article>
 
         
       </main><footer class="py-10 print:hidden">
