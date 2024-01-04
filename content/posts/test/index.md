@@ -2,9 +2,11 @@
 title: "Getting Started"
 date: 2020-08-15
 draft: false
+icon: "github"
+
 description: "Learn how to get started using the Congo theme."
 summary: "This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure."
-slug: "getting-started"
+slug: "getting-started" # urlpath
 tags: ["installation", "docs"]
 ---
 

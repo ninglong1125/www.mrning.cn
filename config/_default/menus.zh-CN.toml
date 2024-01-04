@@ -26,6 +26,11 @@
   weight = 30
 
 [[main]]
+  weight = 99
+  [main.params]
+    action = "appearance"
+
+[[main]]
   identifier = "搜索"
   weight = 99
   [main.params]
@@ -51,7 +56,7 @@
   weight = 11
 [[footer]]
   name = "网站地图"
-  pageRef = "sitemap"
+  url = "/sitemap.xml"
   weight = 12
 [[footer]]
   name = "运行状态"

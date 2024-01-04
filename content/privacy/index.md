@@ -1,7 +1,8 @@
 ---
-title: "使用ohttps自带的docker-nginx来配置https"
+title: "隐私政策"
 date: 2022-01-08
 draft: false
+layout: "simple"
 description: "使用ohttps自带的docker-nginx来配置https"
 summary: "使用 ohttps 官方提供的nginx容器镜像ohttps/ohttps-nginx来配置网站https服务。"
 
@@ -15,7 +16,7 @@ cascade:
   showTableOfContents: false
 
 ---
-# 隐私政策
+
 ## 介绍
 本隐私政策旨在帮助您了解我们对可能从您那里收集的或您提供给我们的任何信息的做法，我们使用这些信息的方式，以及我们如何处理这些信息。
 
