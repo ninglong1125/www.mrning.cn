@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>个人小站🦄</title>
-    <link>https://www.mrning.cn/</link>
-    <description>Recent content on 个人小站🦄</description>
+    <title>教程 on 个人小站🦄</title>
+    <link>https://www.mrning.cn/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on 个人小站🦄</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>皖ICP备2022000240号</copyright>
     <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.mrning.cn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mrning.cn/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux命令简单记录</title>
       <link>https://www.mrning.cn/posts/linux/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://www.mrning.cn/posts/linux/</guid>
       <description>记录几个我经常使用，但是却经常忘的Linux命令。</description>
-    </item>
-    <item>
-      <title>版权声明</title>
-      <link>https://www.mrning.cn/copyright/</link>
-      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.mrning.cn/copyright/</guid>
-      <description>版权声明</description>
     </item>
     <item>
       <title>使用ohttps自带的docker-nginx来配置https服务</title>
@@ -36,27 +29,6 @@
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://www.mrning.cn/posts/ohttps/</guid>
       <description>使用 ohttps 官方提供的nginx容器镜像ohttps/ohttps-nginx来配置网站https服务。</description>
-    </item>
-    <item>
-      <title>隐私政策</title>
-      <link>https://www.mrning.cn/privacy/</link>
-      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.mrning.cn/privacy/</guid>
-      <description>隐私政策</description>
-    </item>
-    <item>
-      <title>友链</title>
-      <link>https://www.mrning.cn/flink/</link>
-      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.mrning.cn/flink/</guid>
-      <description>友链</description>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>https://www.mrning.cn/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.mrning.cn/about/</guid>
-      <description>关于</description>
     </item>
   </channel>
 </rss>

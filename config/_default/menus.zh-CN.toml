@@ -11,19 +11,35 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "📚文章"
+  name = "文章"
   pageRef = "posts"
   weight = 10
+  [main.params]
+    icon = "blogger"
+    showName = true
 
 [[main]]
-  name = "📃归档"
-  pageRef = "categories"
+  name = "归档"
+  pageRef = "tags"
   weight = 20
+  [main.params]
+    icon = "tag"
+    showName = true
 
 [[main]]
-  name = "👀关于"
+  name = "关于"
   pageRef = "about"
   weight = 30
+  [main.params]
+    icon = "circle-info"
+    showName = true
+[[main]]
+  name = "友链"
+  pageRef = "flink"
+  weight = 40
+  [main.params]
+    icon = "foursquare"
+    showName = true
 
 [[main]]
   weight = 99
@@ -60,5 +76,7 @@
   weight = 12
 [[footer]]
   name = "运行状态"
-  pageRef = "status"
+  url = "https://stats.uptimerobot.com/lL0K7t1QkA"
   weight = 13
+  [footer.params]
+    target = "_blank"
