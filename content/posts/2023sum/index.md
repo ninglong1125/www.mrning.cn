@@ -3,7 +3,7 @@ title: "2023年度总结"
 date: 2024-01-08
 draft: false
 description: "2023年度总结"
-summary: "2023年度总结"
+summary: "用一堆废话总结2023年。"
 tags: ["总结","年度总结"]
 
 cascade:
