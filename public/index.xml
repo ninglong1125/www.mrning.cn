@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>皖ICP备2022000240号</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.mrning.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>投喂列表</title>
+      <link>https://www.mrning.cn/reward/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/reward/</guid>
+      <description>投喂列表</description>
+    </item>
+    <item>
+      <title>docker命令总结</title>
+      <link>https://www.mrning.cn/posts/docker/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/posts/docker/</guid>
+      <description>docker死忠粉了，记录一下每次部署服务时运行的重复代码。</description>
+    </item>
     <item>
       <title>2024毕业总结</title>
       <link>https://www.mrning.cn/posts/2024graduate/</link>

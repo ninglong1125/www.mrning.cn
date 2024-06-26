@@ -5,80 +5,81 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "congo"
-defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+colorScheme = "congo"  # 设置颜色方案
+defaultAppearance = "light" # valid options: light or dark  # 设置默认外观
+autoSwitchAppearance = true  # 自动切换外观
 
-enableSearch = true
-enableCodeCopy = true
-enableImageLazyLoading = true
-enableImageWebp = true
-enableQuicklink = true
-# robots = ""
-fingerprintAlgorithm = "sha256"
+enableSearch = true  # 启用搜索功能
+enableCodeCopy = true  # 启用代码复制功能
+enableImageLazyLoading = true  # 启用图片懒加载功能
+enableImageWebp = true  # 启用WebP图片格式
+enableQuicklink = true  # 启用快速链接功能
+# robots = ""  # 设置robots.txt
+fingerprintAlgorithm = "sha256"  # 设置指纹算法
+[author]
+  name = "MrNing"  # 作者名称
+  
+[header]  # 头部设置
+  layout = "basic" # valid options: basic, hamburger, hybrid, custom  # 设置头部布局
+  # logo = "img/moon.jpg"  # 设置logo图片
+  logoDark = "icons/moon.svg"  # 设置暗色模式下的logo图片
+  showTitle = true  # 显示标题
 
-[header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/moon.jpg"
-  logoDark = "icons/moon.svg"
-  showTitle = true
+[footer]  # 底部设置
+  showCopyright = true  # 显示版权信息
+  showThemeAttribution = true  # 显示主题归属信息
+  showScrollToTop = true  # 显示返回顶部按钮
+  showAppearanceSwitcher = false  # 显示外观切换按钮
 
+[homepage]  # 首页设置
+  layout = "profile" # valid options: page, profile, custom  # 设置首页布局
+  showRecent = false  # 显示最近文章
+  recentLimit = 5  # 最近文章显示数量
 
-[footer]
-  showCopyright = true
-  showThemeAttribution = true
-  showScrollToTop = true
-  showAppearanceSwitcher = false
+[article]  # 文章设置
+  showDate = true  # 显示日期
+  showDateUpdated = true  # 显示更新日期
+  showAuthor = true  # 显示作者
+  showBreadcrumbs = true  # 显示面包屑导航
+  showDraftLabel = true  # 显示草稿标签
+  showEdit = false  # 显示编辑按钮
+  # editURL = "https://github.com/username/repo/"  # 编辑URL
+  editAppendPath = true  # 编辑时附加路径
+  showHeadingAnchors = true  # 显示标题锚点
+  showPagination = true  # 显示分页
+  invertPagination = false  # 反转分页
+  showReadingTime = true  # 显示阅读时间
+  showTableOfContents = true  # 显示目录
+  showTaxonomies = true  # 显示分类
+  showWordCount = true  # 显示字数
+  showComments = false  # 显示评论
+  # sharingLinks = ["facebook", "twitter", "mastodon", "pinterest", "reddit", "linkedin", "email"]  # 分享链接
 
-[homepage]
-  layout = "profile" # valid options: page, profile, custom
-  showRecent = false
-  recentLimit = 5
+[list]  # 列表设置
+  showBreadcrumbs = true  # 显示面包屑导航
+  showSummary = true  # 显示摘要
+  showTableOfContents = true  # 显示目录
+  showTaxonomies = false  # 显示分类
+  groupByYear = true  # 按年份分组
+  paginationWidth = 1  # 分页宽度
 
-[article]
-  showDate = true
-  showDateUpdated = true
-  showAuthor = true
-  showBreadcrumbs = false
-  showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
-  showTaxonomies = false
-  showWordCount = true
-  showComments = false
-  # sharingLinks = ["facebook", "twitter", "mastodon", "pinterest", "reddit", "linkedin", "email"]
+[sitemap]  # 站点地图设置
+  excludedKinds = ["taxonomy", "term"]  # 排除的类型
 
-[list]
-  showBreadcrumbs = false
-  showSummary = false
-  showTableOfContents = false
-  showTaxonomies = false
-  groupByYear = true
-  paginationWidth = 1
+[taxonomy]  # 分类设置
+  showTermCount = true  # 显示分类数量
 
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
+[fathomAnalytics]  # Fathom Analytics设置
+  # site = "ABC12345"  # 站点ID
+  # domain = "llama.yoursite.com"  # 域名
 
-[taxonomy]
-  showTermCount = true
+[plausibleAnalytics]  # Plausible Analytics设置
+  # domain = "blog.yoursite.com"  # 域名
+  # event = ""  # 事件
+  # script = ""  # 脚本
 
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[plausibleAnalytics]
-  # domain = "blog.yoursite.com"
-  # event = ""
-  # script = ""
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+[verification]  # 验证设置
+  # google = ""  # Google验证
+  # bing = ""  # Bing验证
+  # pinterest = ""  # Pinterest验证
+  # yandex = ""  # Yandex验证

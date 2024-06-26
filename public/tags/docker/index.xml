@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 个人小站🦄</title>
+    <link>https://www.mrning.cn/tags/docker/</link>
+    <description>Recent content in Docker on 个人小站🦄</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>皖ICP备2022000240号</copyright>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.mrning.cn/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker命令总结</title>
+      <link>https://www.mrning.cn/posts/docker/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/posts/docker/</guid>
+      <description>docker死忠粉了，记录一下每次部署服务时运行的重复代码。</description>
+    </item>
+  </channel>
+</rss>

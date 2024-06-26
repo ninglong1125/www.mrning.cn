@@ -76,7 +76,7 @@
   weight = 12
 [[footer]]
   name = "运行状态"
-  url = "https://stats.uptimerobot.com/lL0K7t1QkA"
+  url = "https://stats.uptimerobot.com/PlG2QUvp37"
   weight = 13
   [footer.params]
     target = "_blank"

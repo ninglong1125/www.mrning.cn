@@ -6,7 +6,7 @@ baseURL = "https://www.mrning.cn/"
 defaultContentLanguage = "zh-CN"
 
 enableRobotsTXT = true
-paginate = 10
+paginate = 5
 summaryLength = 0
 
 [outputs]

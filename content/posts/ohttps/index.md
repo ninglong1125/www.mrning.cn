@@ -162,3 +162,14 @@ server {
     }
 }
 ```
+
+-------------
+<div>
+如果这里的内容对您有那么一点儿帮助，您可以通过以下方式投喂支持。
+{{<figure
+    src="https://pic.imgdb.cn/item/62cbcb4ef54cd3f9379479c1.jpg"
+    alt="投喂列表"
+    caption="[投喂列表](/reward)"
+    >}}</div>
+
+------------

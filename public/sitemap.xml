@@ -4,8 +4,15 @@
   
     
       <url>
-            <loc>https://www.mrning.cn/posts/2024graduate/</loc>
-            <lastmod>2024-06-20T00:00:00+00:00</lastmod>
+            <loc>https://www.mrning.cn/</loc>
+            <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.mrning.cn/reward/</loc>
+            <lastmod>2024-06-26T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -13,9 +20,11 @@
   
     
       <url>
-            <loc>https://www.mrning.cn/</loc>
-            <lastmod>2024-06-20T00:00:00+00:00</lastmod>
+            <loc>https://www.mrning.cn/posts/docker/</loc>
+            <lastmod>2024-06-26T00:00:00+00:00</lastmod>
           </url>
+    
+  
     
   
     
@@ -23,8 +32,17 @@
     
       <url>
             <loc>https://www.mrning.cn/posts/</loc>
+            <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.mrning.cn/posts/2024graduate/</loc>
             <lastmod>2024-06-20T00:00:00+00:00</lastmod>
           </url>
+    
+  
     
   
     
@@ -43,8 +61,6 @@
             <loc>https://www.mrning.cn/posts/linux/</loc>
             <lastmod>2022-09-09T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
