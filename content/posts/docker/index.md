@@ -1,18 +1,18 @@
 ---
-title: "docker命令总结"
+title: "docker命令简单记录"
 date: 2024-06-25
 lastmod: 2024-06-26
 draft: false
-description: "docker命令总结"
+description: "docker命令简单记录"
 summary: "docker死忠粉了，记录一下每次部署服务时运行的重复代码。"
 tags: ["教程","docker"]
-
+editLink: www.mrning.cn
 cascade:
   showDate: true
   showAuthor: true
   showSummary: true
   invertPagination: true
-
+  showEdit: true
   showDateUpdated: true
 ---
 
@@ -100,8 +100,22 @@ sudo docker run -dit \
     -v path/to/ql/data:/ql/data \
     -e QlBaseUrl="/" \
     -e QlPort="5700" \
-    whyour/qinglong:latest
+    whyour/qinglong
 ```
+## docker部署code-server
+```bash
+sudo docker run -d \
+    --name code-server \
+    -p 18080:8080 \
+    -p 1313:1313 \ 
+    -v /mnt/-1/docker-run/codeserver/.config:/opt/coder/.config \
+    -v /mnt/-1/docker-run/codeserver/projects:/opt/coder/project \
+    -e "DOCKER_USER=coder" \
+    -u "coder" \
+    codercom/code-server
+```
+
+
 -------------
 <div>
 如果这里的内容对您有那么一点儿帮助，您可以通过以下方式投喂支持。
