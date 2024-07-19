@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>皖ICP备2022000240号</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.mrning.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投喂列表</title>
@@ -71,6 +71,13 @@
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://www.mrning.cn/flink/</guid>
       <description>友链</description>
+    </item>
+    <item>
+      <title>服务</title>
+      <link>https://www.mrning.cn/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.mrning.cn/service/</guid>
+      <description>服务</description>
     </item>
     <item>
       <title>关于</title>

@@ -1,7 +1,7 @@
 ---
 title: "docker命令简单记录"
 date: 2024-06-25
-lastmod: 2024-06-26
+lastmod: 2024-07-19
 draft: false
 description: "docker命令简单记录"
 summary: "docker死忠粉了，记录一下每次部署服务时运行的重复代码。"
@@ -115,6 +115,14 @@ sudo docker run -d \
     codercom/code-server
 ```
 
+## docker部署AList
+```bash
+sudo docker run -d \
+    --restart unless-stopped \
+    -v /mnt/-1/docker-run/alist:/opt/alist/data  \
+    -p 5244:5244 \
+    --name "alist" xhofe/alist:latest
+```
 
 -------------
 <div>

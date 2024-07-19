@@ -34,11 +34,11 @@
     icon = "circle-info"
     showName = true
 [[main]]
-  name = "友链"
-  pageRef = "flink"
+  name = "服务"
+  pageRef = "service"
   weight = 40
   [main.params]
-    icon = "foursquare"
+    icon = "hashnode"
     showName = true
 
 [[main]]
